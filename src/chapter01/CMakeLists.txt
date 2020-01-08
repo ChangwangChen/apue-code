@@ -1,0 +1,10 @@
+add_executable(hello hello.c)
+add_executable(lsdir list_files.c)
+add_executable(fork std_io.c)
+add_executable(processcontrol processcontol.c)
+add_executable(copy_unbuffered_io copy_unbuffered_io.c)
+add_executable(copy_std_io copy_std_io.c)
+
+target_link_libraries(lsdir apue-lib)
+target_link_libraries(processcontrol apue-lib)
+target_link_libraries(copy_std_io apue-lib)
