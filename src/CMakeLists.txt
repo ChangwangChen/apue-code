@@ -1,3 +1,4 @@
+add_executable(hello chapter01/hello.c)
 add_executable(lsdir chapter01/list_files.c)
 add_executable(fork chapter01/std_io.c)
 add_executable(processcontrol chapter01/processcontol.c)
