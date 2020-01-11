@@ -26,5 +26,7 @@ main(void)
     if(write(fd, str2, 10) != 10)
         err_sys("str2 write error");
 
+    //close opened file
+    close(fd);
     exit(0);
 }
