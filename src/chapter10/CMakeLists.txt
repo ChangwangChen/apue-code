@@ -1,0 +1,13 @@
+add_executable(simple_signal simple_signal.c)
+add_executable(my_alarm my_alarm.c)
+add_executable(sigcld_handler sigcld_handler.c)
+add_executable(alarm_longjump alarm_longjump.c)
+add_executable(signal_peding signal_peding.c)
+add_executable(sig_jmp sig_jmp.c)
+
+target_link_libraries(simple_signal apue-lib)
+target_link_libraries(my_alarm apue-lib)
+target_link_libraries(sigcld_handler apue-lib)
+target_link_libraries(alarm_longjump apue-lib)
+target_link_libraries(signal_peding apue-lib)
+target_link_libraries(sig_jmp apue-lib)
