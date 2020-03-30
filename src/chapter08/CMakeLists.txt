@@ -9,6 +9,7 @@ add_executable(printuids printuids.c)
 add_executable(system_cmd system_cmd.c)
 add_executable(nice_example nice_example.c)
 add_executable(tms_example tms_example.c)
+add_executable(fork_wait_signal fork_wait.c)
 
 target_link_libraries(fork_example apue-lib)
 target_link_libraries(wait_example apue-lib)
@@ -20,4 +21,5 @@ target_link_libraries(system_example apue-lib apue-wait)
 target_link_libraries(printuids apue-lib)
 target_link_libraries(nice_example apue-lib)
 target_link_libraries(tms_example apue-lib)
+target_link_libraries(fork_wait_signal apue-lib apue-signal-wait)
 

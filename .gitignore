@@ -54,3 +54,10 @@ cmake-build/
 cmake-build-debug/
 .vscode/
 .idea/
+Makefile
+*/Makefile
+CMakeFiles
+*/CMakeFiles
+cmake_install.cmake
+*/cmake_install.cmake
+CMakeCache.txt
